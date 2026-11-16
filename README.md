@@ -47,7 +47,7 @@ Per-table verdict records (verdict, evidence strength, limits, seed agreement) a
 | `vendor/frozen_v030/` | The frozen `syntrustbench` v0.3 package of the earlier release (commit `3dd0f7c`), installed with `--no-deps`. |
 | `data/` | The two public datasets (CDC Diabetes Health Indicators; UCI Diabetes 130-US Hospitals), with SHA-256 checks. |
 | `STB_v05_main_experiment.ipynb`, `STB_uci.ipynb` | The notebooks that produced the confirmatory run (CDC and UCI), with their outputs. |
-| `results/evidence/stb-v0.5-full_json.tar.gz` | Saved evidence of the confirmatory run: raw signals and verdicts of every scored table (JSON only; no tables of patient rows). |
+| `results/evidence/stb-v0.5-full_json.tar.gz` | Saved evidence of the confirmatory run: raw signals and verdicts of every scored table (JSON only; no tables of patient rows). Absolute paths of the run machine are replaced by `<artifact-root>`; nothing else is changed. |
 | `results/tables/`, `results/figures/` | Outputs of the two scripts above. |
 | `setup.sh`, `run.sh`, `README_RUN.md` | Environment setup and the full rerun (see below). |
 
