@@ -1,0 +1,21 @@
+generator,dimension,modal_verdict,agree,seeds,flag,counts
+CTGAN,equity,Fail,5,5,stable,{'Fail': 5}
+CTGAN,fidelity,Fail,5,5,stable,{'Fail': 5}
+CTGAN,privacy,Pass,5,5,stable,{'Pass': 5}
+CTGAN,robustness,Pass,3,5,seed-dependent,"{'Fail': 2, 'Pass': 3}"
+CTGAN,utility,Fail,5,5,stable,{'Fail': 5}
+DPAIM,equity,NotEvaluated,3,3,stable,{'NotEvaluated': 3}
+DPAIM,fidelity,Fail,3,3,stable,{'Fail': 3}
+DPAIM,privacy,Pass,3,3,stable,{'Pass': 3}
+DPAIM,robustness,Fail,3,3,stable,{'Fail': 3}
+DPAIM,utility,Fail,3,3,stable,{'Fail': 3}
+GaussianCopula,equity,NotEvaluated,5,5,stable,{'NotEvaluated': 5}
+GaussianCopula,fidelity,Fail,5,5,stable,{'Fail': 5}
+GaussianCopula,privacy,Pass,5,5,stable,{'Pass': 5}
+GaussianCopula,robustness,Fail,5,5,stable,{'Fail': 5}
+GaussianCopula,utility,Fail,5,5,stable,{'Fail': 5}
+TVAE,equity,Fail,5,5,stable,{'Fail': 5}
+TVAE,fidelity,Fail,5,5,stable,{'Fail': 5}
+TVAE,privacy,Pass,5,5,stable,{'Pass': 5}
+TVAE,robustness,Pass,3,5,seed-dependent,"{'Pass': 3, 'Fail': 2}"
+TVAE,utility,Fail,5,5,stable,{'Fail': 5}

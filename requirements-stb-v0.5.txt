@@ -1,0 +1,34 @@
+# SynTrustBench v0.5 runtime environment (preregistration §4). Python 3.12, Linux x86_64 (SJU server).
+# Exact versions = the library's syntrustbench_campaign/environment.py PINS, plus STB's own dependency.
+# Every results manifest records these; a results folder refuses a second environment.
+#   python3.12 -m venv .venv && . .venv/bin/activate && pip install -r requirements-stb-v0.5.txt
+# torch: install the CPU wheel for the scoring environment (the GPU generators use their own env), e.g.
+#   pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cpu
+# The frozen v0.3 checkout (STB_FROZEN_CHECKOUT) is installed separately with --no-deps, as in README_CDC.md.
+numpy==2.3.4
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+torch==2.7.1
+sdv==1.37.4
+ctgan==0.13.0
+rdt==2.1.0
+copulas==0.15.0
+sdmetrics==0.33.0
+pyyaml==6.0.2
+matplotlib==3.10.3
+smartnoise-synth==1.0.8
+mbi==1.1.0
+jax==0.6.2
+jaxlib==0.6.2
+optax==0.2.5
+chex==0.1.90
+opendp==0.14.2
+smartnoise-sql==1.0.10
+networkx==3.4.2
+disjoint-set==0.9.0
+cloudpickle==3.1.2
+threadpoolctl==3.6.0
+# notebook tooling (not recorded in manifests)
+nbformat
+jupyterlab

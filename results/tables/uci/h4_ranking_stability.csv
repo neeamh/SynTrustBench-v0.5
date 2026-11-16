@@ -1,0 +1,10 @@
+benchmark,dimension,mean_kendall_tau,pairs,unstable
+STB,equity,1.0,10,False
+STB,fidelity,1.0,10,False
+STB,privacy,0.8898979485566356,10,False
+STB,robustness,,0,
+STB,utility,0.4666666666666667,10,True
+SDMetrics: sdmetrics_quality,fidelity,0.7333333333333334,10,False
+SDMetrics: sdmetrics_dcr_baseline,privacy,1.0,10,False
+SDMetrics: sdmetrics_dcr_overfitting,privacy,0.6,10,True
+SDMetrics: sdmetrics_new_row_synthesis,privacy,0.9999999999999999,1,False

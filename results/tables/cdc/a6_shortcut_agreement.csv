@@ -1,0 +1,12 @@
+family,tables,target_agree,off_target_agree,target_rate,target_wilson95,a6_holds
+constraint_violation,35,35,10,1.0,"(np.float64(0.9010990076755959), np.float64(0.9999999999999999))",True
+copy_control,8,8,8,1.0,"(np.float64(0.6755924351161198), 1.0)",True
+copy_outlier,104,103,66,0.9903846153846154,"(np.float64(0.9475322752920542), np.float64(0.9983006271503486))",True
+copy_random,104,104,104,1.0,"(np.float64(0.9643786456275479), np.float64(0.9999999999999999))",True
+copy_test,8,8,8,1.0,"(np.float64(0.6755924351161198), 1.0)",True
+label_flip,35,35,8,1.0,"(np.float64(0.9010990076755959), np.float64(0.9999999999999999))",True
+marginal_shift,35,35,10,1.0,"(np.float64(0.9010990076755959), np.float64(0.9999999999999999))",True
+near_copy,104,103,87,0.9903846153846154,"(np.float64(0.9475322752920542), np.float64(0.9983006271503486))",True
+outcome_decouple,35,35,15,1.0,"(np.float64(0.9010990076755959), np.float64(0.9999999999999999))",True
+shuffle,40,40,16,1.0,"(np.float64(0.9123783988027135), 1.0)",True
+subgroup_degrade,35,35,10,1.0,"(np.float64(0.9010990076755959), np.float64(0.9999999999999999))",True

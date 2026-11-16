@@ -1,0 +1,12 @@
+family,tables,target_agree,off_target_agree,target_rate,target_wilson95,a6_holds
+constraint_violation,35,35,35,1.0,"(np.float64(0.9010990076755959), np.float64(0.9999999999999999))",True
+copy_control,8,8,7,1.0,"(np.float64(0.6755924351161198), 1.0)",True
+copy_outlier,96,96,68,1.0,"(np.float64(0.9615244121423243), 1.0)",True
+copy_random,96,96,94,1.0,"(np.float64(0.9615244121423243), 1.0)",True
+copy_test,8,8,1,1.0,"(np.float64(0.6755924351161198), 1.0)",True
+label_flip,35,35,14,1.0,"(np.float64(0.9010990076755959), np.float64(0.9999999999999999))",True
+marginal_shift,35,35,19,1.0,"(np.float64(0.9010990076755959), np.float64(0.9999999999999999))",True
+near_copy,96,96,84,1.0,"(np.float64(0.9615244121423243), 1.0)",True
+outcome_decouple,35,35,32,1.0,"(np.float64(0.9010990076755959), np.float64(0.9999999999999999))",True
+shuffle,40,39,38,0.975,"(np.float64(0.8711863103652591), np.float64(0.9955731684973186))",False
+subgroup_degrade,35,35,15,1.0,"(np.float64(0.9010990076755959), np.float64(0.9999999999999999))",True

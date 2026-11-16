@@ -1,0 +1,32 @@
+{
+  "dataset": "CDC Diabetes Health Indicators (BRFSS 2015; UCI id 891)",
+  "source_csv_sha256": "19f367e3e3350768f0c144c5d73ee5b355f67a57eaaa86ca7bd8aec594d8b1d0",
+  "rows": 253680,
+  "split_hashes": {
+    "real_train": "f568bb9ec7f79e20cffe9aa3a8439c009e4bf045243e79d68717c80c822cb8af",
+    "calibration_pool": "2e001f1295740c6a6a4807f3a41415b7e0aa78ef036b97ff25972735d20d11be",
+    "real_test": "4cac49278d2e4ecb15f214b7f25ff90b7907dbc089f050539bdb31957063bb5b"
+  },
+  "patient_audit": "patient_role_audit.csv",
+  "patient_audit_sha256": "4aa686ac3dec1594e460b3ea32963eb084b2a10eb85e976b8417d8ef840cbe05",
+  "split": "stratified 40/40/20 (library split_three, split_seed 49173)",
+  "person_key": "source ID column if present, else row position; one row = one respondent",
+  "exact_duplicate_rows_share": 0.14023573005361084,
+  "roles": [
+    {
+      "role": "real_train",
+      "rows": 101472,
+      "prevalence": 0.13932907600126143
+    },
+    {
+      "role": "calibration_pool",
+      "rows": 101472,
+      "prevalence": 0.13933893093661306
+    },
+    {
+      "role": "real_test",
+      "rows": 50736,
+      "prevalence": 0.13932907600126143
+    }
+  ]
+}

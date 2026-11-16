@@ -1,0 +1,18 @@
+matrix,family,target,bases,eligible_bases,lod_fraction,lod_rows,status,lod_fit,lod_fit_ci,false_alarm
+CTGAN,copy_outlier,privacy,150,150,0.0002097462070894218,3.0,certified,,,"{'hits': 0, 'trials': 150, 'rate': 0.0, 'wilson95': (np.float64(1.734723475976807e-18), np.float64(0.0249702443680766))}"
+CTGAN,copy_random,privacy,150,150,0.0002097462070894218,3.0,certified,,,"{'hits': 0, 'trials': 150, 'rate': 0.0, 'wilson95': (np.float64(1.734723475976807e-18), np.float64(0.0249702443680766))}"
+CTGAN,near_copy,privacy,150,150,0.25,3576.0,certified,,,"{'hits': 0, 'trials': 150, 'rate': 0.0, 'wilson95': (np.float64(1.734723475976807e-18), np.float64(0.0249702443680766))}"
+GaussianCopula,copy_outlier,privacy,150,150,0.0002097462070894218,3.0,certified,,,"{'hits': 0, 'trials': 150, 'rate': 0.0, 'wilson95': (np.float64(1.734723475976807e-18), np.float64(0.0249702443680766))}"
+GaussianCopula,copy_random,privacy,150,150,0.0002097462070894218,3.0,certified,,,"{'hits': 0, 'trials': 150, 'rate': 0.0, 'wilson95': (np.float64(1.734723475976807e-18), np.float64(0.0249702443680766))}"
+GaussianCopula,near_copy,privacy,150,150,0.25,3576.0,certified,,,"{'hits': 0, 'trials': 150, 'rate': 0.0, 'wilson95': (np.float64(1.734723475976807e-18), np.float64(0.0249702443680766))}"
+honest,constraint_violation,fidelity,100,100,0.001,12.0,censored_at_lowest_dose,,,"{'hits': 2, 'trials': 100, 'rate': 0.02, 'wilson95': (np.float64(0.00550196755016235), np.float64(0.07001179072854388))}"
+honest,copy_control,privacy,150,150,1.0,11443.0,censored_at_lowest_dose,,,
+honest,copy_outlier,privacy,150,150,0.00026216901162282616,3.0,certified,,,"{'hits': 0, 'trials': 150, 'rate': 0.0, 'wilson95': (np.float64(1.734723475976807e-18), np.float64(0.0249702443680766))}"
+honest,copy_random,privacy,150,150,0.00026216901162282616,3.0,certified,,,"{'hits': 0, 'trials': 150, 'rate': 0.0, 'wilson95': (np.float64(1.734723475976807e-18), np.float64(0.0249702443680766))}"
+honest,copy_test,privacy,150,150,,,not_detectable_in_range,,,
+honest,label_flip,utility,100,100,0.02,229.0,censored_at_lowest_dose,,,"{'hits': 1, 'trials': 100, 'rate': 0.01, 'wilson95': (np.float64(0.0017674320641406505), np.float64(0.054486196178705315))}"
+honest,marginal_shift,fidelity,100,100,0.05,573.0,censored_at_lowest_dose,,,"{'hits': 2, 'trials': 100, 'rate': 0.02, 'wilson95': (np.float64(0.00550196755016235), np.float64(0.07001179072854388))}"
+honest,near_copy,privacy,150,150,0.1,1145.0,certified,,,"{'hits': 0, 'trials': 150, 'rate': 0.0, 'wilson95': (np.float64(1.734723475976807e-18), np.float64(0.0249702443680766))}"
+honest,outcome_decouple,utility,100,100,0.7,8011.0,certified,,,"{'hits': 1, 'trials': 100, 'rate': 0.01, 'wilson95': (np.float64(0.0017674320641406505), np.float64(0.054486196178705315))}"
+honest,shuffle,fidelity,100,100,,,not_detectable_in_range,,,"{'hits': 2, 'trials': 100, 'rate': 0.02, 'wilson95': (np.float64(0.00550196755016235), np.float64(0.07001179072854388))}"
+honest,subgroup_degrade,equity,100,100,0.25,2861.0,certified,,,"{'hits': 3, 'trials': 100, 'rate': 0.03, 'wilson95': (np.float64(0.010254524024038925), np.float64(0.0845193642905276))}"

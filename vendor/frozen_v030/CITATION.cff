@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use SynTrustBench, cite the manuscript and the benchmark version."
+title: "SynTrustBench: An Evidence-Gated and Executable Benchmark Framework for Synthetic Clinical Data"
+type: software
+version: 0.2.0
+date-released: 2026-07-28
+repository-code: "https://github.com/bukharilab/SynTrustBench"
+url: "https://github.com/bukharilab/SynTrustBench"
+abstract: "An integrated framework for assessing published evidence and directly evaluating structured synthetic clinical data across fidelity, utility, privacy, equity, and robustness."
+keywords:
+  - synthetic clinical data
+  - trustworthiness
+  - benchmark
+  - differential privacy
+  - clinical utility
+  - fairness
+  - robustness
+authors:
+  - family-names: Hayder
+    given-names: Neeam Shahriar
+  - family-names: Wajahat
+    given-names: Iram
+  - family-names: Bukhari
+    given-names: Syed Ahmad Chan
+license: MIT

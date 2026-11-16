@@ -1,0 +1,16 @@
+generator,dimension,modal_verdict,agree,seeds,flag,counts
+CTGAN,equity,Fail,5,5,stable,{'Fail': 5}
+CTGAN,fidelity,Fail,5,5,stable,{'Fail': 5}
+CTGAN,privacy,Pass,5,5,stable,{'Pass': 5}
+CTGAN,robustness,Pass,5,5,stable,{'Pass': 5}
+CTGAN,utility,Fail,5,5,stable,{'Fail': 5}
+GaussianCopula,equity,NotEvaluated,5,5,stable,{'NotEvaluated': 5}
+GaussianCopula,fidelity,Fail,5,5,stable,{'Fail': 5}
+GaussianCopula,privacy,Pass,5,5,stable,{'Pass': 5}
+GaussianCopula,robustness,Fail,4,5,mostly stable,"{'Fail': 4, 'Pass': 1}"
+GaussianCopula,utility,Fail,5,5,stable,{'Fail': 5}
+TVAE,equity,Fail,5,5,stable,{'Fail': 5}
+TVAE,fidelity,Fail,5,5,stable,{'Fail': 5}
+TVAE,privacy,Fail,5,5,stable,{'Fail': 5}
+TVAE,robustness,NotEvaluated,5,5,stable,{'NotEvaluated': 5}
+TVAE,utility,Fail,5,5,stable,{'Fail': 5}

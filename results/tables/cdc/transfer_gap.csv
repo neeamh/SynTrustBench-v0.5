@@ -1,0 +1,5 @@
+matrix,family,honest_lod,hits,trials,rate,wilson95
+CTGAN,copy_outlier,0.02,1,150,0.006666666666666667,"(np.float64(0.0011778013350174366), np.float64(0.03679283977481815))"
+CTGAN,copy_random,0.02,0,150,0.0,"(np.float64(1.734723475976807e-18), np.float64(0.0249702443680766))"
+GaussianCopula,copy_outlier,0.02,0,150,0.0,"(np.float64(1.734723475976807e-18), np.float64(0.0249702443680766))"
+GaussianCopula,copy_random,0.02,0,150,0.0,"(np.float64(1.734723475976807e-18), np.float64(0.0249702443680766))"

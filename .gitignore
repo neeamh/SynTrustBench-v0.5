@@ -1,0 +1,12 @@
+# Environment and caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# Results and logs live on the machine that produced them (one platform per results folder)
+runs/
+logs/
+
+# Unpacked evidence (recreated from the tarball by scripts/reproduce_paper_numbers.py)
+results/evidence/stb-v0.5-full/

@@ -1,0 +1,27 @@
+{
+  "source": "runs/main_v5/notebook_library/c46914cd32394866/syntrustbench_campaign (the library that produced the gate paper results; verified against main_v5 implementation_hashes.json)",
+  "copied_utc": "2026-11-09T18:27:13.810054Z",
+  "sha256_at_copy": {
+    "__init__.py": "401941352d22b478903c7df0ddabc9de9220b27e954db18c02c735aa618192d4",
+    "cached_privacy.py": "878226acde94f1f341873ccad6b8d047e83352c6249b212a79bf504bd8e05cfd",
+    "calibration.py": "daf4ae1d26d1160d55fd76bd5fe9c7249c9314110e7f8c1b555c87532ffb51b3",
+    "campaign.py": "0cd197318f5b246efdba7d02bee34de6511070db5d940f13ea41a214c1239f80",
+    "config.py": "67d94b9d980098383eddc8fae560beb8e19f13e14ce1ba39f32f3079b0fe83f5",
+    "core.py": "bde6180cde1c88d759d97c5480e7da34858d7113cb837303027cfa6756aee001",
+    "data.py": "4cc9c0bfb4090050eb5e21daabe30f14fc80c7692abdc2882d4f5b758a405f9d",
+    "dp_generators.py": "3deb5d986b0269fd618e372e4246ce942be55862eb3af2212b8073717d018270",
+    "environment.py": "584ee46bb9775ec480992d98dcd949f083dc412e6417dbf228d6587a1fbaafdf",
+    "evaluation.py": "0221ed1e88779198a1622111364510dfa0fcae0c3008255f8f035ea5424a006f",
+    "generators.py": "5f92400ab1981fe28cc9c826dd295acdcf89ece96d389f67d87746029955541a",
+    "judges.py": "a95b90e40b772d1311d1d753a26787eb7421a14c0796a3ff5e5f807079ff5725",
+    "original_reference.py.txt": "3ebc21f477459ac08f9d8c6d0dfdc4ae72e40530b9d62e9311e177a65cf6b33f",
+    "perturbations.py": "ffaca2993c1b3a0a98b0b9b786207c4596decb6d2f0fa695a2e803b1b2819301",
+    "reference.py": "f632d73814dbb3d56ae5d375675eb2804381fee4e3df50adcf47a1b02581f8c6",
+    "reporting.py": "aedc2ade4c038507e011f4b6899e6ac6447ce4fd01b20ed83d1103de1ea80180",
+    "results.py": "ade74c1ab780954972278a23af37da0701bc07956fd1362fcd3cbdc718efa6be",
+    "tabddpm-requirements.txt": "7136e02a75ca832a561e466308e95b243ca0f035560f7fd2e5224d2ba4bc272d",
+    "tabddpm.py": "0ff4964b2e03ae0896224d24d9f4408585a93bbd5df465c9246c4219288c4fc0",
+    "tabddpm_worker.py": "e934b6b4bf0da6ee318c621b2286ad5b70d3dc88f20f6d254ccd0c9c6195c217",
+    "verification.py": "3ea9757a7598c59eb3685393c19f19a6c45904515b56d346751e516e77f4e92a"
+  }
+}

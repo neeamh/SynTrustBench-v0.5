@@ -1,0 +1,16 @@
+{
+  "split_hashes": {
+    "calibration_pool": "948a1f7c871e0d31c672231b1c4aae9d71f72b81fb45578c2f3ab99d89f0508f",
+    "real_test": "768ddb57a8c6946ae585c4f47af17d60e4bfb5872b0fcae539991ae43a72123d",
+    "real_train": "7de627f39d5ef65bcdb56a6549525ab91c9ed39650b49f3babab0663282a7eec"
+  },
+  "rows": {
+    "calibration_pool": 28607,
+    "real_test": 14304,
+    "real_train": 28607
+  },
+  "source_sha256": "0689e7ec031237dc63031b938805c48377748761a3b26acab621567afa24df97",
+  "patient_overlap": 0,
+  "patient_audit": "patient_role_audit.csv",
+  "patient_audit_sha256": "382bbbf5e0a748a6047c33accfe941ed958783204bd962c8f0088eaef5947c6c"
+}
